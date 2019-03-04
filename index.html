@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Tech Quiz</title>
-    </head>
-    <body>
-         <h1>Which tech company will you go to?</h1>
-         
-         <h2 class="quest1">How good are you at coding?</h2>
-         <input placeholder="Amazing, Goodish, Eh, Bad">
-         <button id="question1">Click Here</button>
-         <br>
-         <h2 class="quest2">Did you graudate college?</h2>
-         <input placeholder="Yes, 3 years left, 1 year left, nope">
-         <button id="question2">Click Here</button>
-          <br>
-         <h2 class="quest3">Do you like working overnight?</h2>
-         <input placeholder="Yes, No, Sometimes">
-         <button id="question3">Click Here</button>
-          <br>
-         <h2 class="quest4">Do you like working with people?</h2>
-         <input placeholder="Yes, No, Sometimes">
-         <button id="question4">Click Here</button>
-    </body>
+
+<head>
+  <title>Buzzfeed Quiz</title>
+  <link type='text/css' rel='stylesheet' href='css/style.css' />
+</head>
+
+<body>
+  <div class="header">
+      <div><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BuzzFeed.svg/1280px-BuzzFeed.svg.png"></div>
+  </div>
+  <h1>Which tech company will you work at?</h1>
+  <p id="hope">Who knows? The answer might surprise you! </p>
+  <img class="techPic" src="https://www.comptia.org/images/default-source/insight-tools/thumbnails/grid-ai.jpg?sfvrsn=0">
+  <div class="questions">
+    <h2>Answer all the following questions truthfully</h2>
+    <br>
+    <h2> How good are you at coding?</h2>
+    <input id="question1" class= "input"  placeholder="amazing, goodish, eh, bad">
+    <h2> Did you graudate college?</h2>
+    <input id="question2" class= "input"  placeholder="yes, one year left, few years left, nope">
+    <h2>Do you like working overnight?</h2>
+    <input id="question3" class= "input"  placeholder="yes, no, sometimes, if I have too">
+    <h2>Do you like working with people</h2>
+    <input id="question4"  class= "input" placeholder="yes, no, sometimes, if I have too">
+  </div>
+  <div class="result">
+    <button>Click here to find out what tech company you'd most likely work at!</button>
+   <h1 id="company"> </h1>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src='js/script.js'></script>
+</body>
+
 </html>

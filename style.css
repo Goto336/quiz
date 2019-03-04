@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+
+.header {
+    display: flex;
+    justify-content: center;
+    color: #0f65ef;
+    font-weight: bold;
+    font-size:15px;
+}
+
+.logo {
+    width: 125px;
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: orange;
+}
+.techPic {
+    width: 50%;
+    height:50%;
+}
+
+#hope {
+    font-size: 30px;
+}
+
+
+#BA {
+    color:yellow;
+}
+
+.result {
+   text-align:center;
+}
+
+button {
+    margin-top: 10px;
+    color: white;
+    background-color: red;
+    font-size: 40px;
+    border-radius: 25px;
+    border:3px groove black ;
+   font-family: 'Mukta', sans-serif;
+}
+
+.input{
+    width:400px;
+    height: 50px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2{
+    font-family: 'Mukta', sans-serif;
+}
